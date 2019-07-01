@@ -3,10 +3,12 @@
 <head>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+<meta name="google-signin-client_id" content="160249826757-j3i8628v3dbl4sea6i1og9qc33nmtnmu.apps.googleusercontent.com">
 <link href="/style.css" rel="stylesheet"/>
 </head>
 <body>
-
+    <div class="g-signin2" data-onsuccess="onSignIn"></div>
    <div id="chat">
        <div id="chat-window">
 <div id="output">
